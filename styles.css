@@ -47,14 +47,6 @@ body {
   border-radius: 50px;
 }
 
-.active {
-  border-bottom: 2px solid #00adb5;
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
-  padding-bottom: 2px;
-  display: inline;
-}
-
 /* First section */
 
 .first-section img {
@@ -226,3 +218,49 @@ body {
 .details-link:hover {
   background-color: #003399;
 }
+
+/* about */
+
+.about-info {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0;
+  margin: 80px 250px;
+  text-align: center;
+}
+
+#newsletter .container {
+  background-color: #222831;
+  margin: 0px 0px;
+}
+
+.newsletter-content,
+.subscription-form,
+.terms-text {
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter-content p {
+  font-size: 20px;
+  color: #fff;
+}
+
+#signUpButton {
+  margin: 0px 10px;
+  padding: 0px 20px;
+  border: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#signUpButton:hover {
+  background-color: #484c52;
+}
+
+.terms-text {
+  color: #fff;
+}
+
+/* Media queries */

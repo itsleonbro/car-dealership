@@ -1,22 +1,5 @@
 // Nav Bar
 
-document.addEventListener("DOMContentLoaded", function () {
-  // Get the current URL
-  var currentPage = window.location.pathname.split("/").pop();
-  console.log(currentPage)
-
-  // Check and apply 'active' class
-  if (currentPage === "index.html") {
-    document.getElementById("navHome").classList.add("active");
-  } else if (currentPage === "browse.html") {
-    document.getElementById("navBrowse").classList.add("active");
-  } else if (currentPage === "about.html") {
-    document.getElementById("navAbout").classList.add("active");
-  } else if (currentPage === "contact.html") {
-    document.getElementById("navContact").classList.add("active");
-  }
-});
-
 // Filter on browse
 
 function searchCars() {
